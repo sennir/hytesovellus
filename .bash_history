@@ -49,3 +49,35 @@ ssh-keygen -t ed25519 -C "senni.rikassaari@gmail.com"
 $ eval "$(ssh-agent -s)"
 > Agent pid 59566
 sudo -s -H
+git init
+git remote add origin https://github.com/sennir/hytesovellus.git
+git add .
+git commit -m "commit"
+git push -u origin main
+git branch
+git branch main
+git checkout main
+git rebase master main
+git push -u origin main
+git pull origin main
+git add .
+git commit
+git push -u origin main
+cd documents
+cd
+ll
+cd ~/Documents
+/Users/sennirikassaari/Documents/hyte-server-example-24-validation-ready 
+~/.ssh/config
+$ eval "$(ssh-agent -s)"
+ssh-keygen -t ed25519 -C "senni.rikassaari@gmail.com"
+cat /home/sennir/.ssh/id_ed25519.pub
+$ ssh -T git@github.com
+ssh -T git@github.com
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cd hyte-sovellus
+cd
+ll
+sennir/.ssh/id_ed25519.pub
+/home/sennir/.ssh/id_ed25519.pub
